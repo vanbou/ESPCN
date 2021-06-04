@@ -2,7 +2,7 @@ from __future__ import print_function
 
 import argparse
 from torch.utils.data import DataLoader
-from SubPixelCNN.solver import SubPixelTrainer
+from ESPCN.solver import SubPixelTrainer
 from dataset.data import get_training_set, get_test_set
 
 # ===========================================================
