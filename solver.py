@@ -5,7 +5,7 @@ from math import log10
 import torch
 import torch.backends.cudnn as cudnn
 
-from SubPixelCNN.model import Net
+from ESPCN.model import Net
 from progress_bar import progress_bar
 
 
